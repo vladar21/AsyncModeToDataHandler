@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Books" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WIN-DAMMLNOU81U\SQLEXPRESS;Initial Catalog=Books;Integrated Security=True" SettingsObjectName="AsyncModeToDataHandler.Properties.Settings" SettingsPropertyName="BooksConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.srcbooks" Member="srcbooks">
+    <Type Name="srcbooks">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="new" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(170)" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Decimal(8,4)" CanBeNull="true" />
+      <Column Name="izd" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="npages" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="format" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="dateizd" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="pressrun" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="themes" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="category" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
